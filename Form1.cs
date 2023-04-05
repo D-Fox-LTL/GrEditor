@@ -104,7 +104,7 @@ namespace GrEditor
 
         private void tsmLoad_Click(object sender, EventArgs e)
         {
-            var filePath = string.Empty;
+            string filePath = string.Empty;
 
             using (OpenFileDialog openFD = new OpenFileDialog())
             {
